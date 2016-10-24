@@ -1,0 +1,42 @@
+<acceptance-test-run title="Validate Offerdetails link" name="Validate Offerdetails link" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="31588" timestamp="2016-10-21T16:30:17.013+05:30" session-id="90c74572-ce00-e542-a622-9a4d8d5b72f2" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on Sling Home Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="27151">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on Offerdetails link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c9e1e8cc52041f9e11a51c1c9a32155f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1587">
+      <screenshots>
+        <screenshot image="c9e1e8cc52041f9e11a51c1c9a32155f.png"/>
+      </screenshots>
+      <description>Click on offer details link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should be redirect to Offerdetails page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8583bfb389350215f96983fc9dabf99a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="376">
+      <screenshots>
+        <screenshot image="8583bfb389350215f96983fc9dabf99a.png"/>
+      </screenshots>
+      <description>Verify offer details</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

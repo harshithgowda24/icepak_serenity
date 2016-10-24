@@ -1,0 +1,42 @@
+<acceptance-test-run title="Validate Sign in feature with invalid email" name="Validate Sign in feature with invalid email" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="312708" timestamp="2016-10-21T16:37:43.235+05:30" session-id="93cd4598-8603-0749-aa29-7c813c6f849e" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on MEMBER SIGN IN Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a6aed31dd22e6c14ffe184d6def538db.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="309711">
+      <screenshots>
+        <screenshot image="a6aed31dd22e6c14ffe184d6def538db.png"/>
+      </screenshots>
+      <description>Open member sign in page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I enter invalid email address &quot;John@com&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="034074b5cb618b2b5d4631ea6e052bb5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1403">
+      <screenshots>
+        <screenshot image="e36fc59e765ee04ec66acc95799308d7.png"/>
+      </screenshots>
+      <description>Enter invalid email: John@com</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should see a proper error message for email field" result="SUCCESS">
+    <screenshots>
+      <screenshot image="fd77a8a35598f3c1440e03b9eeaa180e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="333">
+      <screenshots>
+        <screenshot image="fd77a8a35598f3c1440e03b9eeaa180e.png"/>
+      </screenshots>
+      <description>Verify error message</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,42 @@
+<acceptance-test-run title="Validate MEMBER SIGN IN link" name="Validate MEMBER SIGN IN link" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="326670" timestamp="2016-10-21T16:30:49.280+05:30" session-id="de3aca1c-8bd2-8047-ab75-cc9718d54651" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on Sling Home Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="317086">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on MEMBER SIGN IN link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="dcd9fd123dbc754fec89fc28fdb78e59.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6419">
+      <screenshots>
+        <screenshot image="fa002af081e805954dcbc72432721031.png"/>
+      </screenshots>
+      <description>Click on member signin link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should be redirected to Sign In page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f09034340057a2a79e18c9e5a05c00aa.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="352">
+      <screenshots>
+        <screenshot image="f09034340057a2a79e18c9e5a05c00aa.png"/>
+      </screenshots>
+      <description>Redirect to sign in page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

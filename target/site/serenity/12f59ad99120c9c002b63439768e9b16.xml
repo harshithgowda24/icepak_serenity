@@ -1,0 +1,53 @@
+<acceptance-test-run title="Validate Not a member link" name="Validate Not a member link" description="" steps="4" successful="3" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="47337" timestamp="2016-10-21T16:36:54.873+05:30" session-id="47822b92-ae99-e443-ab73-5879185fbcf6" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on Sling Home Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="34195">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on MEMBER SIGN IN link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="83c8fd330a93ea5b2ac4efd3cbd848ba.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1818">
+      <screenshots>
+        <screenshot image="83c8fd330a93ea5b2ac4efd3cbd848ba.png"/>
+      </screenshots>
+      <description>Click on member signin link</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I click on Not a member link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4503">
+      <screenshots>
+        <screenshot image="1a2eb9257a5460c3ecb5bd0cb2e137e8.png"/>
+      </screenshots>
+      <description>Click on not a member link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should be redirected to Sling Home page" result="FAILURE">
+    <test-step result="FAILURE" duration="2207">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png" source="pagesource3170047562355807928.html.txt"/>
+      </screenshots>
+      <description>Redirect to home page</description>
+      <error>org.junit.ComparisonFailure: expected:&lt;...d-ottweb.movetv.com/[]&gt; but was:&lt;...d-ottweb.movetv.com/[?var=zipOnly]&gt;</error>
+      <exception>org.junit.ComparisonFailure:expected:&lt;...d-ottweb.movetv.com/[]&gt; but was:&lt;...d-ottweb.movetv.com/[?var=zipOnly]&gt;
+[net.thucydides.showcase.cucumber.pages.Homepage.assertUserOnHomePage(Homepage.java:80), net.thucydides.showcase.cucumber.steps.serenity.UISteps.redirect_to_home_page(UISteps.java:107), net.thucydides.showcase.cucumber.steps.serenity.HomePageSteps.I_should_be_redirected_to_Sling_Home_page(HomePageSteps.java:42)]</exception>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

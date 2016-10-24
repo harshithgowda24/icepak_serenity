@@ -1,0 +1,53 @@
+<acceptance-test-run title="Validate Forgot Your Password link" name="Validate Forgot Your Password link" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="37131" timestamp="2016-10-21T16:36:16.999+05:30" session-id="ffa1bea4-8326-f24c-b584-013971227706" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on Sling Home Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="31186">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on MEMBER SIGN IN link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0ff5798e0ed8702bbfca584ab7f49130.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1796">
+      <screenshots>
+        <screenshot image="0ff5798e0ed8702bbfca584ab7f49130.png"/>
+      </screenshots>
+      <description>Click on member signin link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I click on Forgot Your Password link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="791e37ad7d0cef68c24d756501803ef0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1726">
+      <screenshots>
+        <screenshot image="d28b6dc5d70a4a227255966a32c05a63.png"/>
+      </screenshots>
+      <description>Click on forgot your password link</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I should be redirected to Forgot Your Password page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="791e37ad7d0cef68c24d756501803ef0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="92">
+      <screenshots>
+        <screenshot image="791e37ad7d0cef68c24d756501803ef0.png"/>
+      </screenshots>
+      <description>Redirect to forgot your password page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

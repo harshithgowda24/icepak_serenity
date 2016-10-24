@@ -1,0 +1,42 @@
+<acceptance-test-run title="Validate Watch Now 7 Days Free button" name="Validate Watch Now 7 Days Free button" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="48233" timestamp="2016-10-21T16:29:26.138+05:30" session-id="99b95f75-6c0d-2140-b7d3-22a853630d69" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on Sling Home Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="37885">
+      <screenshots>
+        <screenshot image="d843a7dfab5b08e969429bc756c26b43.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on WATCH NOW 7 DAYS FREE button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9e6d5b0c296a0cdb0f29f84efae0e9a5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4024">
+      <screenshots>
+        <screenshot image="687866267ef57efa98de1badf9f3b1a1.png"/>
+      </screenshots>
+      <description>Click on watch now 7 days free button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should be redirected to Create User Account page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9e6d5b0c296a0cdb0f29f84efae0e9a5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="735">
+      <screenshots>
+        <screenshot image="9e6d5b0c296a0cdb0f29f84efae0e9a5.png"/>
+      </screenshots>
+      <description>Redirect to create user account page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="net.thucydides.showcase.cucumber.UiCukes" time="869.494" tests="36" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @regression"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/harshithgowda/Documents/icepack-automation-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env" value="local"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/harshithgowda/Documents/icepack-automation-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/ms/xd4j45q10yl8ptmsflv3sy340000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/harshithgowda/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/harshithgowda"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="harshithgowda"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dcucumber.options=--tags @regression -Denv=local"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="java.ext.dirs" value="/Users/harshithgowda/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given I am on Sling Home Page" classname="Scenario: Validate Watch Now 7 Days Free button" time="0.001"/>
+  <testcase name="When I click on WATCH NOW 7 DAYS FREE button" classname="Scenario: Validate Watch Now 7 Days Free button" time="0"/>
+  <testcase name="Then I should be redirected to Create User Account page" classname="Scenario: Validate Watch Now 7 Days Free button" time="0"/>
+  <testcase name="Scenario: Validate Watch Now 7 Days Free button" classname="Scenario: Validate Watch Now 7 Days Free button" time="3.162"/>
+  <testcase name="Given I am on Sling Home Page" classname="Scenario: Validate Offerdetails link" time="0"/>
+  <testcase name="When I click on Offerdetails link" classname="Scenario: Validate Offerdetails link" time="0"/>
+  <testcase name="Then I should be redirect to Offerdetails page" classname="Scenario: Validate Offerdetails link" time="0"/>
+  <testcase name="Scenario: Validate Offerdetails link" classname="Scenario: Validate Offerdetails link" time="0.926"/>
+  <testcase name="Given I am on Sling Home Page" classname="Scenario: Validate MEMBER SIGN IN link" time="0"/>
+  <testcase name="When I click on MEMBER SIGN IN link" classname="Scenario: Validate MEMBER SIGN IN link" time="0"/>
+  <testcase name="Then I should be redirected to Sign In page" classname="Scenario: Validate MEMBER SIGN IN link" time="0"/>
+  <testcase name="Scenario: Validate MEMBER SIGN IN link" classname="Scenario: Validate MEMBER SIGN IN link" time="1.443"/>
+  <testcase name="Given I am on Sling Home Page" classname="Scenario: Validate Forgot Your Password link" time="0"/>
+  <testcase name="When I click on MEMBER SIGN IN link" classname="Scenario: Validate Forgot Your Password link" time="0"/>
+  <testcase name="Then I click on Forgot Your Password link" classname="Scenario: Validate Forgot Your Password link" time="0"/>
+  <testcase name="And I should be redirected to Forgot Your Password page" classname="Scenario: Validate Forgot Your Password link" time="0"/>
+  <testcase name="Scenario: Validate Forgot Your Password link" classname="Scenario: Validate Forgot Your Password link" time="0.817"/>
+  <testcase name="Given I am on Sling Home Page" classname="Scenario: Validate Not a member link" time="0"/>
+  <testcase name="When I click on MEMBER SIGN IN link" classname="Scenario: Validate Not a member link" time="0"/>
+  <testcase name="And I click on Not a member link" classname="Scenario: Validate Not a member link" time="0"/>
+  <testcase name="Then I should be redirected to Sling Home page" classname="Scenario: Validate Not a member link" time="0.012">
+    <failure message="expected:&lt;...d-ottweb.movetv.com/[]&gt; but was:&lt;...d-ottweb.movetv.com/[?var=zipOnly]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...d-ottweb.movetv.com/[]> but was:<...d-ottweb.movetv.com/[?var=zipOnly]>
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Validate Not a member link" classname="Scenario: Validate Not a member link" time="0.012">
+    <failure message="expected:&lt;...d-ottweb.movetv.com/[]&gt; but was:&lt;...d-ottweb.movetv.com/[?var=zipOnly]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...d-ottweb.movetv.com/[]> but was:<...d-ottweb.movetv.com/[?var=zipOnly]>
+]]></failure>
+  </testcase>
+  <testcase name="Given I am on MEMBER SIGN IN Page" classname="Scenario: Validate Sign in feature with invalid email" time="0"/>
+  <testcase name="When I enter invalid email address &quot;John@com&quot;" classname="Scenario: Validate Sign in feature with invalid email" time="0"/>
+  <testcase name="Then I should see a proper error message for email field" classname="Scenario: Validate Sign in feature with invalid email" time="0"/>
+  <testcase name="Scenario: Validate Sign in feature with invalid email" classname="Scenario: Validate Sign in feature with invalid email" time="1.085"/>
+  <testcase name="Given I am on MEMBER SIGN IN Page" classname="Scenario: Validate Sign in feature with non registered email address" time="0"/>
+  <testcase name="When I enter non existing email address &quot;John@yopmail.com&quot; and password &quot;123456&quot;" classname="Scenario: Validate Sign in feature with non registered email address" time="0"/>
+  <testcase name="Then I hit Sign In button" classname="Scenario: Validate Sign in feature with non registered email address" time="0"/>
+  <testcase name="And I should see &quot;Invalid email/password combination&quot; error message" classname="Scenario: Validate Sign in feature with non registered email address" time="0"/>
+  <testcase name="Scenario: Validate Sign in feature with non registered email address" classname="Scenario: Validate Sign in feature with non registered email address" time="0.76"/>
+  <testcase name="Given I am on MEMBER SIGN IN Page" classname="Scenario: Validate Sign in feature with valid email address and password" time="0"/>
+  <testcase name="When I enter valid email address &quot;harshith@mailinator.com&quot; and valid password &quot;123456&quot;" classname="Scenario: Validate Sign in feature with valid email address and password" time="0"/>
+  <testcase name="And I hit Sign In button" classname="Scenario: Validate Sign in feature with valid email address and password" time="0"/>
+  <testcase name="Then I should be redirected to My Account Subscription page" classname="Scenario: Validate Sign in feature with valid email address and password" time="0"/>
+  <testcase name="Scenario: Validate Sign in feature with valid email address and password" classname="Scenario: Validate Sign in feature with valid email address and password" time="0.607"/>
+</testsuite>

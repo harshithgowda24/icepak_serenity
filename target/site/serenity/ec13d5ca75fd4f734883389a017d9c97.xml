@@ -1,0 +1,53 @@
+<acceptance-test-run title="Validate Sign in feature with non registered email address" name="Validate Sign in feature with non registered email address" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="32013" timestamp="2016-10-21T16:42:56.682+05:30" session-id="c5b4d031-7b7b-084b-b3c3-eb21f01c7566" test-source="Cucumber">
+  <user-story id="login" name="Login" path="ui/login.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Login" type="feature"/>
+    <tag name="Ui/" type="feature"/>
+    <tag name="regression" type="tag"/>
+  </tags>
+  <test-group name="Given I am on MEMBER SIGN IN Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a6aed31dd22e6c14ffe184d6def538db.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="28551">
+      <screenshots>
+        <screenshot image="a6aed31dd22e6c14ffe184d6def538db.png"/>
+      </screenshots>
+      <description>Open member sign in page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I enter non existing email address &quot;John@yopmail.com&quot; and password &quot;123456&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="256b78297cbae427f679e37d106d46d5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1122">
+      <screenshots>
+        <screenshot image="256b78297cbae427f679e37d106d46d5.png"/>
+      </screenshots>
+      <description>Enter no existing credentials: John@yopmail.com, 123456</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I hit Sign In button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6be0a5f083c8126a712206dca21e6a92.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="571">
+      <screenshots>
+        <screenshot image="3d942cb4f0144c461032eb3c96c3607b.png"/>
+      </screenshots>
+      <description>Click sign in button</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I should see &quot;Invalid email/password combination&quot; error message" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e1ccd56b69c1270ecc6cd51200d42840.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="547">
+      <screenshots>
+        <screenshot image="e1ccd56b69c1270ecc6cd51200d42840.png"/>
+      </screenshots>
+      <description>Verify error message1: Invalid email/password combination</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

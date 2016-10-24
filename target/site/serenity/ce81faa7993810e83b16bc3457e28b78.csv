@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Validate Forgot Your Password link","SUCCESS","2016-10-21T16:36:16.999+05:30","0.0","37.13"
+"Login","Validate MEMBER SIGN IN link","SUCCESS","2016-10-21T16:30:49.280+05:30","0.0","326.67"
+"Login","Validate Offerdetails link","SUCCESS","2016-10-21T16:30:17.013+05:30","0.0","31.59"
+"Login","Validate Sign in feature with invalid email","SUCCESS","2016-10-21T16:37:43.235+05:30","0.0","312.71"
+"Login","Validate Sign in feature with non registered email address","SUCCESS","2016-10-21T16:42:56.682+05:30","0.0","32.01"
+"Login","Validate Sign in feature with valid email address and password","SUCCESS","2016-10-21T16:43:29.097+05:30","0.0","25.92"
+"Login","Validate Watch Now 7 Days Free button","SUCCESS","2016-10-21T16:29:26.138+05:30","0.0","48.23"

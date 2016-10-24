@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: net.thucydides.showcase.cucumber.UiCukes
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 869.494 sec <<< FAILURE! - in net.thucydides.showcase.cucumber.UiCukes
+Then I should be redirected to Sling Home page(Scenario: Validate Not a member link)  Time elapsed: 0.012 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...d-ottweb.movetv.com/[]> but was:<...d-ottweb.movetv.com/[?var=zipOnly]>
+
+Scenario: Validate Not a member link  Time elapsed: 0.012 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...d-ottweb.movetv.com/[]> but was:<...d-ottweb.movetv.com/[?var=zipOnly]>
+
